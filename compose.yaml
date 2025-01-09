@@ -26,7 +26,7 @@ services:
         # Set the below URL component settings from where the the web-service is externally available
         # NOTE: This must be the address from that the service is externally available (not network internal address)
         - sebserver_webservice_http_external_scheme=http
-        - sebserver_webservice_http_external_servername=50.17.80.179
+        - sebserver_webservice_http_external_servername=198.211.116.224
         - sebserver_webservice_http_external_port=8080
       ports:
           - 8080:8080
